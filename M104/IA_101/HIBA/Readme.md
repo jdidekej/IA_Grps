@@ -40,24 +40,13 @@ Pour une compréhension visuelle complète, trois types de graphiques sont gén�
 
 [Image of boxplot showing outliers and interquartile range]
 
-
-### EXERCICE 5 : Analyse Croisée et Insights 🔍
-#### a) Corrélation entre les matières
-Calcul du **Coefficient de Pearson ($r$)** pour évaluer la force du lien entre les scores :
-$$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \cdot \sum(y_i - \bar{y})^2}}$$
-
-| Valeur de $r$ | Force | Signification |
-| :--- | :--- | :--- |
-| 0.7 - 1.0 | Forte | Relation très marquée |
-| 0.4 - 0.7 | Modérée | Relation significative |
-| 0.0 - 0.4 | Faible | Relation peu marquée |
-
-#### b) Facteurs Influentiels
-Analyse de l'impact des variables catégorielles :
-* **Parental level of education** : Impact du milieu familial.
-* **Lunch** : Influence du statut socio-économique.
-* **Test preparation course** : Analyse de l'efficacité du soutien scolaire.
-* **Gender & Race/Ethnicity** : Étude de la diversité des résultats.
+### EXERCICE 5 : Analyse Croisée et Insights
+* **Corrélation de Pearson ($r$)** : Mesure de la force de la relation entre les matières (ex: Math vs Lecture).
+  * $0.7 - 1.0$ : Forte | $0.4 - 0.7$ : Modérée | $0.0 - 0.4$ : Faible.
+* **Analyse des Facteurs Influents** : Étude de l'impact des variables socio-économiques sur les scores :
+    * `Parental level of education` : Impact du milieu académique familial.
+    * `Lunch` : Influence du statut économique (standard vs réduit).
+    * `Test preparation course` : Efficacité réelle du suivi de cours de préparation.
 
 ---
 
